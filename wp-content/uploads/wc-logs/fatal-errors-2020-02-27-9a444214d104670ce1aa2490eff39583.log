@@ -1,0 +1,4 @@
+2020-02-27T04:20:46+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 32768 bytes) in C:\xampp\htdocs\ecommerce\wp-content\themes\Divi\functions.php on line 5767
+
+2020-02-27T18:53:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecommerce\wp-includes\Requests\Transport\cURL.php on line 163
+

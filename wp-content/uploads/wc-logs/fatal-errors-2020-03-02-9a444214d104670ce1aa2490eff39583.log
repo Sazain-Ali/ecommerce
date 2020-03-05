@@ -1,0 +1,2 @@
+2020-03-02T23:36:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecommerce\wp-content\plugins\wp-security-audit-log\classes\Sensors\FileChanges.php on line 668
+
