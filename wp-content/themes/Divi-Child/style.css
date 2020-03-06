@@ -30,7 +30,7 @@ body .et_pb_row_3 {
  /*  Navigation Bar Starts  */
 
  .et_fixed_nav #main-header{
-     top:75px !important;
+     top:65px !important;
  }
 body #et-top-navigation {
     float: right;
@@ -167,11 +167,9 @@ div.wpcf7-mail-sent-ok {
 /* Woocommerce Settings starts*/
 .woocommerce ul.products li.product a img
 body .woocommerce ul.products li.product a img {
-    width: 80%;
+    width: 100%;
     height: auto;
     display: block;
-    padding-left: 18%;
-    padding-top: 8%;
     margin: 0 0 1em;
     box-shadow: none;
 }
@@ -181,8 +179,7 @@ body .et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h4, .et_pb_sho
     margin-top: 13%;
 }
  body.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
-    height: 203px !important;
-    width: 132px !important;
+    
 }
 
  body .et_portfolio_image .et_shop_image {
@@ -193,6 +190,13 @@ body .et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h4, .et_pb_sho
     padding-bottom: 10%;
  }
 
+ .et_shop_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
  body .woocommerce ul.products li.product .price, .woocommerce ul.products li.product .price del, .woocommerce-page ul.products li.product .price, .woocommerce-page ul.products li.product .price del {
     margin: 0!important;
     color: #666!important;
@@ -200,7 +204,7 @@ body .et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h4, .et_pb_sho
     padding-bottom: 6%;
 }
 
-
+/* newsletter section form*/
 #news-letter{
         text-align: center;
     margin-left: 28%;
@@ -225,6 +229,8 @@ input.wpcf7-form-control.wpcf7-submit {
     font-family: open sans !important;
     font-size: inherit;
 }
+
+/* product page */
 body .et_shop_image .et_overlay {
     display: block;
     position: absolute;
@@ -254,9 +260,8 @@ body .et_shop_image .et_overlay:hover{
 }
 body .et_shop_image .et_overlay:before {
     position: absolute;
-    top: 14%;
-    left: 30%;
-    margin: 157px 0 0 -16px;
+    left: 36%;
+    margin: 0 0 0 -16px;
     width: 40%;
     border-radius: 25px;
     font-size: 13px;
@@ -316,7 +321,7 @@ body.related .products .product .related h2 {
 }
 
 .et_pb_tabs_controls li:active{
-    color:red !important;
+  
 }
 
 ul.et_pb_tabs_controls {
@@ -333,7 +338,7 @@ ul.et_pb_tabs_controls {
 
 .footer-widget .fwidget:last-child {
     margin-bottom: 0!important;
-    padding-left: 45%;
+  
 }
 #footer-info {
     float:none !important;
@@ -342,20 +347,27 @@ ul.et_pb_tabs_controls {
     text-align: center;
 }
 
+#text-2{
+    float: none;
+    text-align: center;
+}
+
 #main-footer #et-footer-nav {
     background-color: rgba(255,255,255,.05);
     text-align: center;
     margin-left:24%;
 }
-body .et_pb_gutters3.et_pb_footer_columns1 .footer-widget {
-    width: 100%;
   
-    padding-left: 43%;
-}
 
 #footer-bottom .container.clearfix {
     text-align: center;
   
+}
+.et-social-icons{
+    position: absolute;
+    top: -295%;
+    left: 38%;
+    float:none;
 }
 
 
